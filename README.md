@@ -31,6 +31,7 @@ docker run --rm -v $(pwd):/home/stm32/ws cortesja/stm32-docker-cmake:latest bash
 ## Open topics
 
 * Flashing
+* Add Github actions example for compiling
 
 ## Credits
 
