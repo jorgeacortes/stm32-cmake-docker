@@ -28,11 +28,13 @@ docker run --rm -v $(pwd):/home/stm32/ws cortesja/stm32-cmake:latest bash -c "sh
 * STM32CubeMX 5.6.1
 * STM32 FW: git clones from 18/07/2020
 * ARM Toolchain: gcc-arm-none-eabi-9-2020-q2-update
+* Cmake modules: git clone from 18/07/2020
 
 ## Open topics
 
 * Flashing
 * Add Github actions example for compiling
+* L4 support missing
 
 ## Credits
 
