@@ -7,7 +7,7 @@ Supported families are: F0, F1, F2, F3, F4, F7, L0, L1, G0, H7
 ## Project contents
 
 * Dockerfile for creating base image. Prebuilt image already uploaded at docker hub.
-  * Docker image: docker pull [cortesja/stm32-docker-cmake:latest](https://hub.docker.com/repository/docker/cortesja/stm32-docker-cmake)
+  * Docker image: docker pull [cortesja/stm32-cmake:latest](https://hub.docker.com/repository/docker/cortesja/stm32-cmake)
 * stm32-docker-cmake.ioc: Sample project configured with STM32CubeMX for board NUCLEO-F072RB.
 * CMakeLists.txt file for compiling with cmake.
 * build.sh / clean.sh bash script for compiling project inside the container.
@@ -18,7 +18,7 @@ Supported families are: F0, F1, F2, F3, F4, F7, L0, L1, G0, H7
 
 ```
 # build project
-docker run --rm -v $(pwd):/home/stm32/ws cortesja/stm32-docker-cmake:latest bash -c "sh build.sh"
+docker run --rm -v $(pwd):/home/stm32/ws cortesja/stm32-cmake:latest bash -c "sh build.sh"
 ```
 
 ## Versions
