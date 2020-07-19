@@ -26,6 +26,7 @@ docker run --rm -v $(pwd):/home/stm32/ws cortesja/stm32-cmake:latest bash -c "sh
 * Ubuntu 20.04
 * Cmake: 3.16.3
 * STM32CubeMX 5.6.1
+* STM32 FW: git clones from 18/07/2020
 * ARM Toolchain: gcc-arm-none-eabi-9-2020-q2-update
 
 ## Open topics
