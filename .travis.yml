@@ -1,10 +1,10 @@
 language: c
 
 services:
-  - docker
+- docker
 
 before_install:
 - docker pull cortesja/stm32-cmake:latest
 
 script:
-- docker run --rm -v {PWD}:/home/stm32/ws cortesja/stm32-cmake:latest bash -c "sh build.sh"
+- docker run --rm -v $(pwd):/home/stm32/ws cortesja/stm32-cmake:latest bash -c "sh build.sh"
