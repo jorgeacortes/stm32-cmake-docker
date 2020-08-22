@@ -1,6 +1,6 @@
 # About
 
-![Build action](https://github.com/jorgeacortes/stm32-cmake-docker/workflows/Build%20action/badge.svg)
+![Build](https://github.com/jorgeacortes/stm32-cmake-docker/workflows/Build/badge.svg)
 
 This project is a sample project that contains a docker image that allows to compile STM32 ARM Cortex-M microcontrollers using cmake.
 
@@ -36,7 +36,6 @@ docker run --rm -v $(pwd):/home/stm32/ws cortesja/stm32-cmake:latest bash -c "sh
 ## Open topics
 
 * Flashing
-* Add Github actions example for compiling
 
 ## Credits
 

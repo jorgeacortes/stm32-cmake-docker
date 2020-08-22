@@ -1,4 +1,4 @@
-name: Build action
+name: Build
 
 on: [push]
 
