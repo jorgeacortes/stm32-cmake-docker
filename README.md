@@ -17,7 +17,7 @@ G4 family is not supported by STM32 CMake modules.
 * build.sh / clean.sh bash script for compiling project inside the container.
 * docker-clean.bat and docker-compile.bat as examples for launching docker from Windows cmd or powershell.
 * Project and launch files for flashing and debugging with STM32CubeIDE.
-* [Github actions](.gitub/workflows/build.yml) and [travis-ci](.travis.yml) compilation job examples.
+* [Github actions](.github/workflows/build.yml) and [travis-ci](.travis.yml) compilation job examples.
 
 ## Sample usage
 
