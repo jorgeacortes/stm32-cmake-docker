@@ -1,6 +1,7 @@
 # About
 
 ![Build](https://github.com/jorgeacortes/stm32-cmake-docker/workflows/Build/badge.svg)
+[![Build Status](https://travis-ci.org/jorgeacortes/stm32-cmake-docker.svg?branch=master)](https://travis-ci.org/jorgeacortes/stm32-cmake-docker)
 
 This project is a sample project that contains a docker image that allows to compile STM32 ARM Cortex-M microcontrollers using cmake.
 
