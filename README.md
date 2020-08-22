@@ -1,5 +1,7 @@
 # About
 
+![Build action](https://github.com/jorgeacortes/stm32-cmake-docker/workflows/Build%20action/badge.svg)
+
 This project is a sample project that contains a docker image that allows to compile STM32 ARM Cortex-M microcontrollers using cmake.
 
 Supported families are: F0, F1, F2, F3, F4, F7, L0, L1, L4, G0 and H7.
