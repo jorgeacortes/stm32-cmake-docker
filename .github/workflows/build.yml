@@ -1,0 +1,14 @@
+name: Build action
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+    - name: Build project
+      uses: docker://cortesja/stm32-cmake:latest
+      with:
+        args: bash -c "sh build.sh"
