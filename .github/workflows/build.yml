@@ -11,4 +11,4 @@ jobs:
     - name: Build project
       uses: docker://cortesja/stm32-cmake:latest
       with:
-        args: bash -c "sudo sh build.sh"
+        args: bash -c "sh build.sh"
