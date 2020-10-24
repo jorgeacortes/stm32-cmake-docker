@@ -2,16 +2,18 @@
 	"version": "2.0.0",
 	"tasks": [
 		{
-			"command": "tools/docker-compile.bat",
+			"command": "cd Docker; ./docker-compile.bat",
 			"group": "build",
+			"type": "shell",
 			"label": "Build (Docker)",
 			"problemMatcher": [
 				"$gcc"
 			]
 		},
 		{
-			"command": "tools/docker-clean.bat",
+			"command": "cd Docker; ./docker-clean.bat",
 			"group": "build",
+			"type": "shell",
 			"label": "Clean (Docker)",
 			"problemMatcher": []
 		}
