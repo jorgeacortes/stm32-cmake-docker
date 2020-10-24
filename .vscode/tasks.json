@@ -1,0 +1,19 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"command": "tools/docker-compile.bat",
+			"group": "build",
+			"label": "Build (Docker)",
+			"problemMatcher": [
+				"$gcc"
+			]
+		},
+		{
+			"command": "tools/docker-clean.bat",
+			"group": "build",
+			"label": "Clean (Docker)",
+			"problemMatcher": []
+		}
+	]
+}
