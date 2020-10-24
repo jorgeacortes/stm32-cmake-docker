@@ -11,11 +11,10 @@ SET(CMAKE_CXX_FLAGS  "${CMAKE_CXX_FLAGS} -fdebug-prefix-map=/home/stm32/ws/=")
 SET(CMAKE_C_FLAGS  "${CMAKE_C_FLAGS} -fdebug-prefix-map=/home/stm32/ws/=")
 
 INCLUDE_DIRECTORIES(
-
+    ${CMAKE_CURRENT_SOURCE_DIR}
     ${CMSIS_INCLUDE_DIRS}
     ${STM32HAL_INCLUDE_DIR}
     Inc
-    ${CMAKE_CURRENT_SOURCE_DIR}/lib/flatbuffers/include
 )
 
 SET(PROJECT_SOURCES
