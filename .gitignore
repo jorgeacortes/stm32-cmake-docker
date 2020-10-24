@@ -2,3 +2,5 @@ out.txt
 build
 .settings
 Debug
+.cproject
+.mxproject
